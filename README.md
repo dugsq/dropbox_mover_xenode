@@ -13,13 +13,15 @@ dropbox-mover-xenode
 * access_token: specifies the application access token for your Dropbox account. Expects a string.
 
 ###Example Configuration File:###
-* enabled: true
-* loop_delay: 60
-* debug: false
-* move_from_path: "/source"
-* move_to_path: "/target"
-* named_file: "hello.txt"
-* access_token: "1234567890abcdefg"
+```yaml
+enabled: true
+loop_delay: 60
+debug: false
+move_from_path: "/source"
+move_to_path: "/target"
+named_file: "hello.txt"
+access_token: "1234567890abcdefg"
+```
 
 ###Example Input:###
 * The Dropbox Mover Xenode does not expect nor handle any input.  
