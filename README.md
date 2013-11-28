@@ -1,4 +1,4 @@
-dropbox-mover-xenode
+Dropbox Mover Xenode
 ====================
 
 ***Dropbox Mover Xenode*** monitors a specific file on Dropbox and moves it to another location on the same Dropbox. It leverages the "dropbox-sdk" RubyGem to perform the file move operation. 
