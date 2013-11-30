@@ -1,7 +1,9 @@
 Dropbox Mover Xenode
 ====================
 
-***Dropbox Mover Xenode*** monitors a specific file on Dropbox and moves it to another location on the same Dropbox. It leverages the "dropbox-sdk" RubyGem to perform the file move operation. 
+Note: you will need the Xenograte Community Toolkit (XCT) to run this Xenode. Refer to the XCT repo [https://github.com/Nodally/xenograte-xct](https://github.com/Nodally/xenograte-xct) for more information.
+
+**Dropbox Mover Xenode** monitors a specific file on Dropbox and moves it to another location on the same Dropbox. It leverages the "dropbox-sdk" RubyGem to perform the file move operation. 
 
 ###Config file options:###
 * loop_delay: defines number of seconds the Xenode waits before running the Xenode process. Expects a float.  
